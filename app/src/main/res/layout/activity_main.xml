@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="BootstrapButton"
+        app:bootstrapBrand="success"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:roundedCorners="true"
+        app:showOutline="false" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButtonGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:text="BootstrapButtonGroup"
+        app:bootstrapBrand="warning"
+        app:bootstrapSize="lg"
+        app:roundedCorners="true">
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BootstrapButton 1" />
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BootstrapButton 2" />
+    </com.beardedhen.androidbootstrap.BootstrapButtonGroup>
+
+    <com.beardedhen.androidbootstrap.AwesomeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:bootstrapBrand="danger"
+        app:fontAwesomeIcon="fa_ambulance" />
+
+    <com.beardedhen.androidbootstrap.BootstrapProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:animated="true"
+        app:bootstrapBrand="danger"
+        app:bootstrapProgress="78"
+        app:striped="true" />
+
+    <com.beardedhen.androidbootstrap.BootstrapLabel
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Bootstrap Label"
+        app:bootstrapBrand="primary"
+        app:bootstrapHeading="h3"
+        app:roundedCorners="true" />
+
+</LinearLayout>
